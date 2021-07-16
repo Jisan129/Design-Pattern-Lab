@@ -3,7 +3,8 @@
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
-import ConcreteText
+import PlainText
+from Italic import Italic
 
 
 def print_hi(name):
@@ -14,6 +15,7 @@ def print_hi(name):
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('PyCharm')
-    a = ConcreteText.ConcreteText()
+    a = PlainText.ConcreteText('jisan')
     print(a.decorate_text())
-
+    b = Italic(a)
+    print(b.decorate_text())
