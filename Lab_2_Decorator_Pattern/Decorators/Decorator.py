@@ -1,4 +1,4 @@
-import TextAbstract
+from Components import TextAbstract
 
 
 class TextDecorator(TextAbstract.TextAbstract):
