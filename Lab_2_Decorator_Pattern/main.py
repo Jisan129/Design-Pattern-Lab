@@ -4,7 +4,10 @@
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
 import PlainText
+from BoldText import BoldText
 from Italic import Italic
+from StrikeOut import StrikeOut
+from simple_colors import *
 
 
 def print_hi(name):
@@ -15,7 +18,13 @@ def print_hi(name):
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('PyCharm')
-    a = PlainText.ConcreteText('jisan')
+
+    a = PlainText.ConcreteText('JISAN')
     print(a.decorate_text())
     b = Italic(a)
     print(b.decorate_text())
+    c = BoldText(b)
+    print(c.decorate_text())
+    d = StrikeOut(c)
+    print(d.decorate_text())
+# print(''.join(chain.from_iterable(zip('abir', repeat('\u0336')))))
