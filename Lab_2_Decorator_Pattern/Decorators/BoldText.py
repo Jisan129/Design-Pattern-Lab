@@ -1,8 +1,7 @@
-import Decorator
-from simple_colors import *
+import Decorators.Decorator
 
 
-class BoldText(Decorator.TextDecorator):
+class BoldText(Decorators.Decorator.TextDecorator):
 
     def decorate_text(self) -> str:
         temp = super(BoldText, self).decorate_text()

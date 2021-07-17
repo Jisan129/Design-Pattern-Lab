@@ -1,8 +1,7 @@
-import Decorator
-from simple_colors import *
+import Decorators.Decorator
 
 
-class Italic(Decorator.TextDecorator):
+class Italic(Decorators.Decorator.TextDecorator):
 
     def decorate_text(self) -> str:
         temp = super(Italic, self).decorate_text()
