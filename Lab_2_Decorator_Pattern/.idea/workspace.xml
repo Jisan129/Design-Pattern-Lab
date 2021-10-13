@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ec64f00-25d2-4d31-a220-1a56e962a366" name="Default Changelist" comment="" />
+    <list default="true" id="9ec64f00-25d2-4d31-a220-1a56e962a366" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,6 +80,8 @@
       <option name="presentableId" value="Default" />
       <updated>1626473344018</updated>
       <workItem from="1626473352330" duration="9060000" />
+      <workItem from="1627825452671" duration="168000" />
+      <workItem from="1627825651102" duration="321000" />
     </task>
     <servers />
   </component>
@@ -94,6 +98,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Lab_2_Decorator_Pattern$main.coverage" NAME="main Coverage Results" MODIFIED="1626482982469" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
